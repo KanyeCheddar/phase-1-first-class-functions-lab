@@ -19,9 +19,13 @@ const fareDoubler = function (createFareMultiplier) {
     return (createFareMultiplier*2);
 }
 
+//const fareDoubler = createFareMultiplier(2);
+
 const fareTripler = function (createFareMultiplier) {
     return (createFareMultiplier*3);
 }
+
+//const fareTripler = createFareMultiplier(3);
 
 function selectDifferentDrivers(selectingDrivers, arrayOfDrivers) {
     if(arrayOfDrivers === returnFirstTwoDrivers) {
@@ -30,3 +34,9 @@ function selectDifferentDrivers(selectingDrivers, arrayOfDrivers) {
         return returnLastTwoDrivers(selectingDrivers);
     }
 }
+
+/*
+    const selectDifferentDrivers = function (drivers, driversToReturn) {
+    return driversToReturn(drivers);
+};
+*/
