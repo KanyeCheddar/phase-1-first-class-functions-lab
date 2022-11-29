@@ -36,6 +36,14 @@ function selectDifferentDrivers(selectingDrivers, arrayOfDrivers) {
 }
 
 /*
+Simplified update to your solution using Flatiron School concept
+function selectDifferentDrivers(selectingDrivers, arrayOfDrivers) {
+    return arrayOfDrivers(selectingDrivers)
+}
+*/
+
+/*
+Flatiron School Solution
     const selectDifferentDrivers = function (drivers, driversToReturn) {
     return driversToReturn(drivers);
 };
