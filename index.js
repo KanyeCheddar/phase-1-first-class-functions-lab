@@ -9,15 +9,13 @@ const returnLastTwoDrivers = function (array) {
 
 let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-function createFareMultiplier(fare) {
-    return function (multiplier) {
+function createFareMultiplier(multiplier) {
+    return function (fare) {
         return fare*multiplier;
     }
 }
 
-const fareDoubler = function (createFareMultiplier) {
-    return (createFareMultiplier*2);
-}
+const fareDoubler = createFareMultiplier(2);
 
 //const fareDoubler = createFareMultiplier(2);
 
@@ -47,4 +45,12 @@ Flatiron School Solution
     const selectDifferentDrivers = function (drivers, driversToReturn) {
     return driversToReturn(drivers);
 };
+*/
+
+/*
+
+const selectDifferentDrivers = function(drivers, driversToReturn){
+    return driversToReturn(drivers);
+}
+
 */
